@@ -1,0 +1,240 @@
+2020-09-01 13:46:51 [INFO ](o.s.w.c.ContextLoader              ) Root WebApplicationContext: initialization started
+2020-09-01 13:46:51 [INFO ](o.s.w.c.s.XmlWebApplicationContext ) Refreshing Root WebApplicationContext: startup date [Tue Sep 01 13:46:51 CST 2020]; root of context hierarchy
+2020-09-01 13:46:51 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector.xml]
+2020-09-01 13:46:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-profile.xml]
+2020-09-01 13:46:52 [INFO ](DefaultBeanDefinitionDocumentReader) Skipped XML bean definition file due to specified profiles [local] not matching: class path resource [applicationContext-collector-profile.xml]
+2020-09-01 13:46:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-grpc.xml]
+2020-09-01 13:46:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-hbase.xml]
+2020-09-01 13:46:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-namespace.xml]
+2020-09-01 13:46:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-flink.xml]
+2020-09-01 13:46:52 [INFO ](.s.b.f.s.DefaultListableBeanFactory) Overriding bean definition for bean 'sendAgentStatService' with a different definition: replacing [Generic bean: class [com.navercorp.pinpoint.collector.service.SendAgentStatService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/zhangqi/Desktop/apache-tomcat-8.5.57/webapps/pinpoint-collector-2.0.4/WEB-INF/classes/com/navercorp/pinpoint/collector/service/SendAgentStatService.class]] with [Generic bean: class [com.navercorp.pinpoint.collector.service.SendAgentStatService]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-collector-flink.xml]]
+2020-09-01 13:46:53 [INFO ](ropertySourcesPlaceholderConfigurer) Properties resource not found: -Dpinpoint.collector.config.location does not set (No such file or directory)
+2020-09-01 13:46:54 [INFO ](utowiredAnnotationBeanPostProcessor) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-01 13:46:54 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Initializing ExecutorService 'grpcSpanStreamScheduler'
+2020-09-01 13:46:54 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Initializing ExecutorService 'grpcStatStreamScheduler'
+2020-09-01 13:46:54 [WARN ](o.a.h.u.NativeCodeLoader           ) Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-01 13:49:29 [INFO ](o.s.w.c.ContextLoader              ) Root WebApplicationContext: initialization started
+2020-09-01 13:49:29 [INFO ](o.s.w.c.s.XmlWebApplicationContext ) Refreshing Root WebApplicationContext: startup date [Tue Sep 01 13:49:29 CST 2020]; root of context hierarchy
+2020-09-01 13:49:29 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector.xml]
+2020-09-01 13:49:30 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-profile.xml]
+2020-09-01 13:49:30 [INFO ](DefaultBeanDefinitionDocumentReader) Skipped XML bean definition file due to specified profiles [local] not matching: class path resource [applicationContext-collector-profile.xml]
+2020-09-01 13:49:30 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-grpc.xml]
+2020-09-01 13:49:30 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-hbase.xml]
+2020-09-01 13:49:30 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-namespace.xml]
+2020-09-01 13:49:30 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-flink.xml]
+2020-09-01 13:49:30 [INFO ](.s.b.f.s.DefaultListableBeanFactory) Overriding bean definition for bean 'sendAgentStatService' with a different definition: replacing [Generic bean: class [com.navercorp.pinpoint.collector.service.SendAgentStatService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/zhangqi/Desktop/apache-tomcat-8.5.57/webapps/pinpoint-collector-2.0.4/WEB-INF/classes/com/navercorp/pinpoint/collector/service/SendAgentStatService.class]] with [Generic bean: class [com.navercorp.pinpoint.collector.service.SendAgentStatService]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-collector-flink.xml]]
+2020-09-01 13:49:32 [INFO ](ropertySourcesPlaceholderConfigurer) Properties resource not found: -Dpinpoint.collector.config.location does not set (No such file or directory)
+2020-09-01 13:49:32 [INFO ](utowiredAnnotationBeanPostProcessor) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-01 13:49:34 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Initializing ExecutorService 'grpcSpanStreamScheduler'
+2020-09-01 13:49:34 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Initializing ExecutorService 'grpcStatStreamScheduler'
+2020-09-01 13:49:35 [WARN ](o.a.h.u.NativeCodeLoader           ) Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-01 13:50:51 [INFO ](o.s.w.c.ContextLoader              ) Root WebApplicationContext: initialization started
+2020-09-01 13:50:51 [INFO ](o.s.w.c.s.XmlWebApplicationContext ) Refreshing Root WebApplicationContext: startup date [Tue Sep 01 13:50:51 CST 2020]; root of context hierarchy
+2020-09-01 13:50:51 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector.xml]
+2020-09-01 13:50:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-profile.xml]
+2020-09-01 13:50:52 [INFO ](DefaultBeanDefinitionDocumentReader) Skipped XML bean definition file due to specified profiles [local] not matching: class path resource [applicationContext-collector-profile.xml]
+2020-09-01 13:50:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-grpc.xml]
+2020-09-01 13:50:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-hbase.xml]
+2020-09-01 13:50:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-namespace.xml]
+2020-09-01 13:50:52 [INFO ](o.s.b.f.x.XmlBeanDefinitionReader  ) Loading XML bean definitions from class path resource [applicationContext-collector-flink.xml]
+2020-09-01 13:50:52 [INFO ](.s.b.f.s.DefaultListableBeanFactory) Overriding bean definition for bean 'sendAgentStatService' with a different definition: replacing [Generic bean: class [com.navercorp.pinpoint.collector.service.SendAgentStatService]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [/Users/zhangqi/Desktop/apache-tomcat-8.5.57/webapps/pinpoint-collector-2.0.4/WEB-INF/classes/com/navercorp/pinpoint/collector/service/SendAgentStatService.class]] with [Generic bean: class [com.navercorp.pinpoint.collector.service.SendAgentStatService]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext-collector-flink.xml]]
+2020-09-01 13:50:53 [INFO ](ropertySourcesPlaceholderConfigurer) Properties resource not found: -Dpinpoint.collector.config.location does not set (No such file or directory)
+2020-09-01 13:50:54 [INFO ](utowiredAnnotationBeanPostProcessor) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-09-01 13:50:54 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Initializing ExecutorService 'grpcSpanStreamScheduler'
+2020-09-01 13:50:54 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Initializing ExecutorService 'grpcStatStreamScheduler'
+2020-09-01 13:50:54 [WARN ](o.a.h.u.NativeCodeLoader           ) Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-09-01 13:51:20 [INFO ](o.s.s.c.ThreadPoolTaskScheduler    ) Initializing ExecutorService 'grpcLifecycleScheduler'
+2020-09-01 13:51:31 [INFO ](o.a.c.u.Compatibility              ) Running in ZooKeeper 3.4.x compatibility mode
+2020-09-01 13:51:31 [INFO ](o.a.c.u.Compatibility              ) Using emulated InjectSessionExpiration
+2020-09-01 13:51:31 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) Starting
+2020-09-01 13:51:36 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) Default schema
+2020-09-01 13:51:45 [WARN ](o.s.w.c.s.XmlWebApplicationContext ) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grpcSpanReceiver' defined in class path resource [applicationContext-collector-grpc.xml]: Invocation of init method failed; nested exception is java.io.IOException: Failed to bind
+2020-09-01 13:51:47 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) backgroundOperationsLoop exiting
+2020-09-01 13:51:47 [INFO ](o.s.s.c.ThreadPoolTaskScheduler    ) Shutting down ExecutorService 'grpcLifecycleScheduler'
+2020-09-01 13:51:47 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Shutting down ExecutorService 'grpcStatStreamScheduler'
+2020-09-01 13:51:47 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Shutting down ExecutorService 'grpcSpanStreamScheduler'
+2020-09-01 13:51:47 [ERROR](o.s.w.c.ContextLoader              ) Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grpcSpanReceiver' defined in class path resource [applicationContext-collector-grpc.xml]: Invocation of init method failed; nested exception is java.io.IOException: Failed to bind
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1631)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4689)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5155)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to bind
+	at io.grpc.netty.NettyServer.start(NettyServer.java:252)
+	at io.grpc.internal.ServerImpl.start(ServerImpl.java:163)
+	at io.grpc.internal.ServerImpl.start(ServerImpl.java:78)
+	at com.navercorp.pinpoint.collector.receiver.grpc.GrpcReceiver.afterPropertiesSet(GrpcReceiver.java:116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	... 25 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:504)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:348)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	... 3 more
+2020-09-01 13:54:00 [INFO ](o.s.s.c.ThreadPoolTaskScheduler    ) Initializing ExecutorService 'grpcLifecycleScheduler'
+2020-09-01 13:54:10 [INFO ](o.a.c.u.Compatibility              ) Running in ZooKeeper 3.4.x compatibility mode
+2020-09-01 13:54:10 [INFO ](o.a.c.u.Compatibility              ) Using emulated InjectSessionExpiration
+2020-09-01 13:54:10 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) Starting
+2020-09-01 13:54:16 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) Default schema
+2020-09-01 13:54:25 [WARN ](o.s.w.c.s.XmlWebApplicationContext ) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grpcSpanReceiver' defined in class path resource [applicationContext-collector-grpc.xml]: Invocation of init method failed; nested exception is java.io.IOException: Failed to bind
+2020-09-01 13:54:27 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) backgroundOperationsLoop exiting
+2020-09-01 13:54:28 [INFO ](o.s.s.c.ThreadPoolTaskScheduler    ) Shutting down ExecutorService 'grpcLifecycleScheduler'
+2020-09-01 13:54:28 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Shutting down ExecutorService 'grpcStatStreamScheduler'
+2020-09-01 13:54:28 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Shutting down ExecutorService 'grpcSpanStreamScheduler'
+2020-09-01 13:54:28 [ERROR](o.s.w.c.ContextLoader              ) Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grpcSpanReceiver' defined in class path resource [applicationContext-collector-grpc.xml]: Invocation of init method failed; nested exception is java.io.IOException: Failed to bind
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1631)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4689)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5155)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to bind
+	at io.grpc.netty.NettyServer.start(NettyServer.java:252)
+	at io.grpc.internal.ServerImpl.start(ServerImpl.java:163)
+	at io.grpc.internal.ServerImpl.start(ServerImpl.java:78)
+	at com.navercorp.pinpoint.collector.receiver.grpc.GrpcReceiver.afterPropertiesSet(GrpcReceiver.java:116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	... 25 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:504)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:348)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	... 3 more
+2020-09-01 13:55:21 [INFO ](o.s.s.c.ThreadPoolTaskScheduler    ) Initializing ExecutorService 'grpcLifecycleScheduler'
+2020-09-01 13:55:32 [INFO ](o.a.c.u.Compatibility              ) Running in ZooKeeper 3.4.x compatibility mode
+2020-09-01 13:55:32 [INFO ](o.a.c.u.Compatibility              ) Using emulated InjectSessionExpiration
+2020-09-01 13:55:32 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) Starting
+2020-09-01 13:55:37 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) Default schema
+2020-09-01 13:55:46 [WARN ](o.s.w.c.s.XmlWebApplicationContext ) Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grpcSpanReceiver' defined in class path resource [applicationContext-collector-grpc.xml]: Invocation of init method failed; nested exception is java.io.IOException: Failed to bind
+2020-09-01 13:55:48 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) backgroundOperationsLoop exiting
+2020-09-01 13:55:48 [INFO ](o.s.s.c.ThreadPoolTaskScheduler    ) Shutting down ExecutorService 'grpcLifecycleScheduler'
+2020-09-01 13:55:48 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Shutting down ExecutorService 'grpcStatStreamScheduler'
+2020-09-01 13:55:48 [INFO ](.s.s.c.ScheduledExecutorFactoryBean) Shutting down ExecutorService 'grpcSpanStreamScheduler'
+2020-09-01 13:55:48 [ERROR](o.s.w.c.ContextLoader              ) Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grpcSpanReceiver' defined in class path resource [applicationContext-collector-grpc.xml]: Invocation of init method failed; nested exception is java.io.IOException: Failed to bind
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1631)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4689)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5155)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Failed to bind
+	at io.grpc.netty.NettyServer.start(NettyServer.java:252)
+	at io.grpc.internal.ServerImpl.start(ServerImpl.java:163)
+	at io.grpc.internal.ServerImpl.start(ServerImpl.java:78)
+	at com.navercorp.pinpoint.collector.receiver.grpc.GrpcReceiver.afterPropertiesSet(GrpcReceiver.java:116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	... 25 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:504)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:489)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:348)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	... 3 more
