@@ -124,6 +124,7 @@
 # -----------------------------------------------------------------------------
 # JAVA_OPTS="-Dpinpoint.zookeeper.address=39.99.56.225"
 # OS specific support.  $var _must_ be set to either true or false.
+JAVA_OPTS="-Xms512m -Xmx1024m -XX:ParallelGCThreads=8 -XX:PermSize=128m -XX:MaxPermSize=256m"
 cygwin=false
 darwin=false
 os400=false

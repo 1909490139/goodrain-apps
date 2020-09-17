@@ -122,7 +122,7 @@
 #                   signals. Default is "false" unless running on HP-UX in which
 #                   case the default is "true"
 # -----------------------------------------------------------------------------
-JAVA_OPTS="-Dspring.profiles.active=release"
+JAVA_OPTS="-Xms512m -Xmx1024m -XX:ParallelGCThreads=8 -XX:PermSize=128m -XX:MaxPermSize=256m -Dspring.profiles.active=release"
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false
 darwin=false

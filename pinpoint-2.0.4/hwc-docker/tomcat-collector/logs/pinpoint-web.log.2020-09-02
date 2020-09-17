@@ -1,4 +1,0 @@
-2020-09-02 19:58:20 [INFO ](o.a.c.u.Compatibility              ) Running in ZooKeeper 3.4.x compatibility mode
-2020-09-02 19:58:20 [INFO ](o.a.c.u.Compatibility              ) Using emulated InjectSessionExpiration
-2020-09-02 19:58:20 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) Starting
-2020-09-02 19:58:55 [INFO ](o.a.c.f.i.CuratorFrameworkImpl     ) Default schema
