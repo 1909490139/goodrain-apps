@@ -7,7 +7,7 @@ set -o nounset \
 export KAFKA_BROKER_ID=${HOSTNAME#*-}
 
 #define KAFKA_ADVERTISED_LISTENERS
-export KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://${POD_IP-}:9092
+#export KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://${POD_IP-}:9092
 
 # set default_java_mem_opts
 case ${MEMORY_SIZE:-small} in
